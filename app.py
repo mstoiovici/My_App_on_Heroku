@@ -11,7 +11,7 @@ app=Flask("MyApp")
 @app.route("/")
 def hello():
     return "Hello world!!!!!"
-
+"""
 @app.route("/Mariana")
 def hello_someone():
     return "This will be Mariana's web app"
@@ -27,5 +27,5 @@ def sign_up():
     print(form_data["email"])
     return "All OK"
 
-
+"""
 app.run(debug=True)
